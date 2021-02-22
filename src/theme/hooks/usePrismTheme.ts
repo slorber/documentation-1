@@ -1,6 +1,6 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import defaultTheme from 'prism-react-renderer/themes/palenight';
-import useThemeContext from '@theme/*';
+import useThemeContext from '@theme/ThemeProvider';
 
 const usePrismTheme = () => {
   const { siteConfig } = useDocusaurusContext();
